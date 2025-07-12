@@ -1,0 +1,285 @@
+# 2016-04-08: Moved from SVN -> git. Prior logs lost to the mists of time...
+#
+#
+# This lives at (git.noc.ietf.org:NOC/ietf-noc.git:/ietf-noc/common/geo/google.csv)
+#
+
+# draft-google-self-published-geofeeds file for geolocating IETF meetings.
+#
+# RFC spec: https://www.rfc-editor.org/rfc/rfc8805
+
+#Format:
+#Range,Country(ISO3166-1),Region(ISO3166-2),City,Postal
+#
+# Utility for looking up ISO 3166-2:
+# https://www.iso.org/obp/ui/#iso:code:3166:CZ
+# or https://en.wikipedia.org/wiki/ISO_3166-2:GB
+#
+# To text file:
+#  cat google.csv |./ipgeo_feed_validator.py
+#
+# Deployment:
+#  Edit.
+#  cat google.csv | ./ipgeo_feed_validator.py
+#  commit and push.
+#  scp google.csv noc.ietf.org:/var/www/html/geo/google.csv
+
+
+
+## IETF 88, November 3-8, 2013 - Vancouver, BC, Canada
+
+## IETF 89, March 2 - 7, 2014 - London, UK.
+# 130.129.0.0/16,GB,GB-LND,London,
+# 2001:df8::/32,GB,GB-LND,London,
+# 31.133.128.0/18,GB,GB-LND,London,
+# 31.130.224.0/20,GB,GB-LND,London,
+# 2001:67c:1230::/46,GB,GB-LND,London,
+# 2001:67c:370::/48,GB,GB-LND,London,
+
+## IETF 90, July 20 - 25, 2014 - Toronto, Canada.
+# 130.129.0.0/16,CA,CA-ON,Toronto,
+# 2001:df8::/32,CA,CA-ON,Toronto,
+# 31.133.128.0/18,CA,CA-ON,Toronto,
+# 31.130.224.0/20,CA,CA-ON,Toronto,
+# 2001:67c:1230::/46,CA,CA-ON,Toronto,
+# 2001:67c:370::/48,CA,CA-ON,Toronto,
+
+## IETF 91, November 2014 - Honolulu, HI, USA
+# 130.129.0.0/16,US,US-HI,Honolulu,
+# 2001:df8::/32,US,US-HI,Honolulu,
+# 31.133.128.0/18,US,US-HI,Honolulu,
+# 31.130.224.0/20,US,US-HI,Honolulu,
+# 2001:67c:1230::/46,US,US-HI,Honolulu,
+# 2001:67c:370::/48,US,US-HI,Honolulu,
+
+## IETF 92, March 2015 - Dallas, TX, USA
+# 130.129.0.0/16,US,US-TX,Dallas,
+# 2001:df8::/32,US,US-TX,Dallas,
+# 31.133.128.0/18,US,US-TX,Dallas,
+# 31.130.224.0/20,US,US-TX,Dallas,
+# 2001:67c:1230::/46,US,US-TX,Dallas,
+# 2001:67c:370::/48,US,US-TX,Dallas,
+
+## IETF 93, July 2015 - Prague, CZ
+# 130.129.0.0/16,CZ,CZ-PR,Prague,
+# 2001:df8::/32,CZ,CZ-PR,Prague,
+# 31.133.128.0/18,CZ,CZ-PR,Prague,
+# 31.130.224.0/20,CZ,CZ-PR,Prague,
+# 2001:67c:1230::/46,CZ,CZ-PR,Prague,
+# 2001:67c:370::/48,CZ,CZ-PR,Prague,
+
+## IETF 94, Nov 2015 - Yokohama, JP
+# 130.129.0.0/16,JP,JP-14,Yokohama,
+# 2001:df8::/32,JP,JP-14,Yokohama,
+# 31.133.128.0/18,JP,JP-14,Yokohama,
+# 31.130.224.0/20,JP,JP-14,Yokohama,
+# 2001:67c:1230::/46,JP,JP-14,Yokohama,
+# 2001:67c:370::/48,JP,JP-14,Yokohama,
+
+## IETF 95, April 2016 - Buenos Aires, AR
+# 130.129.0.0/16,AR,AR-B,Buenos Aires,
+# 2001:df8::/32,AR,AR-B,Buenos Aires,
+# 31.133.128.0/18,AR,AR-B,Buenos Aires,
+# 31.130.224.0/20,AR,AR-B,Buenos Aires,
+# 2001:67c:1230::/46,AR,AR-B,Buenos Aires,
+# 2001:67c:370::/48,AR,AR-B,Buenos Aires,
+
+## IETF 96, July 2016 - Berlin, Germany
+# 130.129.0.0/16,DE,DE-BE,Berlin,
+# 2001:df8::/32,DE,DE-BE,Berlin,
+# 31.133.128.0/18,DE,DE-BE,Berlin,
+# 31.130.224.0/20,DE,DE-BE,Berlin,
+# 2001:67c:1230::/46,DE,DE-BE,Berlin,
+# 2001:67c:370::/48,DE,DE-BE,Berlin,
+
+## IETF 96, July 2016 - Berlin, Germany
+# 130.129.0.0/16,DE,DE-BE,Berlin,
+# 2001:df8::/32,DE,DE-BE,Berlin,
+# 31.133.128.0/18,DE,DE-BE,Berlin,
+# 31.130.224.0/20,DE,DE-BE,Berlin,
+# 2001:67c:1230::/46,DE,DE-BE,Berlin,
+# 2001:67c:370::/48,DE,DE-BE,Berlin,
+
+## IETF97 (Seoul) was not commited to Github (and we are on the new noc server)
+
+## IETF 98, March 2017 - Chicago, USA
+# 130.129.0.0/16,US,US-IL,Chicago,
+# 2001:df8::/32,US,US-IL,Chicago,
+# 31.133.128.0/18,US,US-IL,Chicago,
+# 31.130.224.0/20,US,US-IL,Chicago,
+# 2001:67c:1230::/46,US,US-IL,Chicago,
+# 2001:67c:370::/48,US,US-IL,Chicago,
+
+## IETF99 (Praha), changed for ubuntu, committed, ...
+## IETF 99, July 2017 - Praha, CZ
+# 130.129.0.0/16,CZ,CZ-PR,Praha,
+# 2001:df8::/32,CZ,CZ-PR,Praha,
+# 31.133.128.0/18,CZ,CZ-PR,Praha,
+# 31.130.224.0/20,CZ,CZ-PR,Praha,
+# 2001:67c:1230::/46,CZ,CZ-PR,Praha,
+# 2001:67c:370::/48,CZ,CZ-PR,Praha,
+
+## IETF100 (Singapore)
+## IETF 100, November 2017 - Singapore, SG
+# 130.129.0.0/16,SG,SG-01,Singapore,
+# 2001:df8::/32,SG,SG-01,Singapore,
+# 31.133.128.0/18,SG,SG-01,Singapore,
+# 31.130.224.0/20,SG,SG-01,Singapore,
+# 2001:67c:1230::/46,SG,SG-01,Singapore,
+# 2001:67c:370::/48,SG,SG-01,Singapore,
+
+# # IETF 101, March 17 - 23, 2018 - London, UK.
+# 130.129.0.0/16,GB,GB-LND,London,
+# 2001:df8::/32,GB,GB-LND,London,
+# 31.133.128.0/18,GB,GB-LND,London,
+# 31.130.224.0/20,GB,GB-LND,London,
+# 2001:67c:1230::/46,GB,GB-LND,London,
+# 2001:67c:370::/48,GB,GB-LND,London,
+
+
+# # IETF 102, July 15 - 20, 2018 - Montreal, CA.
+# 130.129.0.0/16,CA,CA-QC,Montreal,
+# 2001:df8::/32,CA,CA-QC,Montreal,
+# 31.133.128.0/18,CA,CA-QC,Montreal,
+# 31.130.224.0/20,CA,CA-QC,Montreal,
+# 2001:67c:1230::/46,CA,CA-QC,Montreal,
+# 2001:67c:370::/48,CA,CA-QC,Montreal,
+
+# # IETF 103, 3 Nov 2018 - 9 Nov 2018 - Bangkok, TH.
+# 130.129.0.0/16,TH,TH-10,Bangkok,
+# 2001:df8::/32,TH,TH-10,Bangkok,
+# 31.133.128.0/18,TH,TH-10,Bangkok,
+# 31.130.224.0/20,TH,TH-10,Bangkok,
+# 2001:67c:1230::/46,TH,TH-10,Bangkok,
+# 2001:67c:370::/48,TH,TH-10,Bangkok,
+
+# # IETF 104, March 2019 - Prague, CZ.
+# # Note that Prague changed from CZ-PR to CZ-10 2016-11-15 - https://www.iso.org/obp/ui/#iso:code:3166:CZ
+# 130.129.0.0/16,CZ,CZ-10,Prague,
+# 2001:df8::/32,CZ,CZ-10,Prague,
+# 31.133.128.0/18,CZ,CZ-10,Prague,
+# 31.130.224.0/20,CZ,CZ-10,Prague,
+# 2001:67c:1230::/46,CZ,CZ-10,Prague,
+# 2001:67c:370::/48,CZ,CZ-10,Prague,
+
+## IETF 105, July 22 - 26, 2019 - Montreal, CA.
+# 130.129.0.0/16,CA,CA-QC,Montreal,
+# 2001:df8::/32,CA,CA-QC,Montreal,
+# 31.133.128.0/18,CA,CA-QC,Montreal,
+# 31.130.224.0/20,CA,CA-QC,Montreal,
+# 2001:67c:1230::/46,CA,CA-QC,Montreal,
+# 2001:67c:370::/48,CA,CA-QC,Montreal,
+
+## IETF106 (Singapore) - November 2019 - Singapore, SG.
+# 130.129.0.0/16,SG,SG-01,Singapore,
+# 2001:df8::/32,SG,SG-01,Singapore,
+# 31.133.128.0/18,SG,SG-01,Singapore,
+# 31.130.224.0/20,SG,SG-01,Singapore,
+# 2001:67c:1230::/46,SG,SG-01,Singapore,
+# 2001:67c:370::/48,SG,SG-01,Singapore,
+
+## IETF107 (Vancouver) - March 2019 - Vancouver, CA.
+# 130.129.0.0/16,CA,CA-BC,Vancouver,
+# 2001:df8::/32,CA,CA-BC,Vancouver,
+# 31.133.128.0/18,CA,CA-BC,Vancouver,
+# 31.130.224.0/20,CA,CA-BC,Vancouver,
+# 2001:67c:1230::/46,CA,CA-BC,Vancouver,
+# 2001:67c:370::/48,CA,CA-BC,Vancouver,
+
+## IETF108 (Madrid) - - Madrid, ES.
+# 130.129.0.0/16,ES,ES-MD,Madrid,
+# 2001:df8::/32,ES,ES-MD,Madrid,
+# 31.133.128.0/18,ES,ES-MD,Madrid,
+# 31.130.224.0/20,ES,ES-MD,Madrid,
+# 2001:67c:1230::/46,ES,ES-MD,Madrid,
+# 2001:67c:370::/48,ES,ES-MD,Madrid,
+
+# Time passes - we all cower in fear while COVID stalks the land...
+
+## IETF113 (Vienna) - March 2022 - Vienna, AT.
+# 130.129.0.0/16,AT,AT-9,Vienna,
+# 2001:df8::/32,AT,AT-9,Vienna,
+# 31.133.128.0/18,AT,AT-9,Vienna,
+# 31.130.224.0/20,AT,AT-9,Vienna,
+# 2001:67c:1230::/46,AT,AT-9,Vienna,
+# 2001:67c:370::/48,AT,AT-9,Vienna,
+
+# # IETF114 (Philadelphia) - July 2022 - Philadelphia, PA, US.
+# 130.129.0.0/16,US,US-PA,Philadelphia,
+# 2001:df8::/32,US,US-PA,Philadelphia,
+# 31.133.128.0/18,US,US-PA,Philadelphia,
+# 31.130.224.0/20,US,US-PA,Philadelphia,
+# 2001:67c:1230::/46,US,US-PA,Philadelphia,
+# 2001:67c:370::/48,US,US-PA,Philadelphia,
+
+## IETF 115 (London), Nov 2022 - London, UK.
+# 130.129.0.0/16,GB,GB-LND,London,
+# 2001:df8::/32,GB,GB-LND,London,
+# 31.133.128.0/18,GB,GB-LND,London,
+# 31.130.224.0/20,GB,GB-LND,London,
+# 2001:67c:1230::/46,GB,GB-LND,London,
+# 2001:67c:370::/48,GB,GB-LND,London,
+
+## IETF 116 (Yokohama), Mar 2023 - Yokohama, JP.
+# 130.129.0.0/16,JP,JP-14,Yokohama,
+# 2001:df8::/32,JP,JP-14,Yokohama,
+# 31.133.128.0/18,JP,JP-14,Yokohama,
+# 31.130.224.0/20,JP,JP-14,Yokohama,
+# 2001:67c:1230::/46,JP,JP-14,Yokohama,
+# 2001:67c:370::/48,JP,JP-14,Yokohama,
+
+## IETF 117 (San Francisco) June 2023 - San Francisco, CA, US.
+# 130.129.0.0/16,US,US-CA,San Francisco,
+# 2001:df8::/32,US,US-CA,San Francisco,
+# 31.133.128.0/18,US,US-CA,San Francisco,
+# 31.130.224.0/20,US,US-CA,San Francisco,
+# 2001:67c:1230::/46,US,US-CA,San Francisco,
+# 2001:67c:370::/48,US,US-CA,San Francisco,
+
+## IETF 118, Nov 2023 - Prague, CZ.
+# 130.129.0.0/16,CZ,CZ-10,Prague,
+# 2001:df8::/32,CZ,CZ-10,Prague,
+# 31.133.128.0/18,CZ,CZ-10,Prague,
+# 31.130.224.0/20,CZ,CZ-10,Prague,
+# 2001:67c:1230::/46,CZ,CZ-10,Prague,
+# 2001:67c:370::/48,CZ,CZ-10,Prague,
+
+## IETF 119, Mar 2024 - Brisbane, AU.
+# 130.129.0.0/16,AU,AU-QLD,Brisbane,
+# 2001:df8::/32,AU,AU-QLD,Brisbane,
+# 31.133.128.0/18,AU,AU-QLD,Brisbane,
+# 31.130.224.0/20,AU,AU-QLD,Brisbane,
+# 2001:67c:1230::/46,AU,AU-QLD,Brisbane,
+# 2001:67c:370::/48,AU,AU-QLD,Brisbane,
+
+## IETF120 (Vancouver) - July 20 - 26, 2024 - Vancouver, CA.
+# 130.129.0.0/16,CA,CA-BC,Vancouver,
+# 2001:df8::/32,CA,CA-BC,Vancouver,
+# 31.133.128.0/18,CA,CA-BC,Vancouver,
+# 31.130.224.0/20,CA,CA-BC,Vancouver,
+# 2001:67c:1230::/46,CA,CA-BC,Vancouver,
+# 2001:67c:370::/48,CA,CA-BC,Vancouver,
+
+## IETF121 (Dublin) - 2 Nov - 8 Nov, 2024 - Dublin, IE.
+# 130.129.0.0/16,IE,IE-D,Dublin,
+# 2001:df8::/32,IE,IE-D,Dublin,
+# 31.133.128.0/18,IE,IE-D,Dublin,
+# 31.130.224.0/20,IE,IE-D,Dublin,
+# 2001:67c:1230::/46,IE,IE-D,Dublin,
+# 2001:67c:370::/48,IE,IE-D,Dublin,
+
+## IETF 122, 15 Mar 2025 - 21 Mar 2025 - Bangkok, TH.
+# 130.129.0.0/16,TH,TH-10,Bangkok,
+# 2001:df8::/32,TH,TH-10,Bangkok,
+# 31.133.128.0/18,TH,TH-10,Bangkok,
+# 31.130.224.0/20,TH,TH-10,Bangkok,
+# 2001:67c:1230::/46,TH,TH-10,Bangkok,
+# 2001:67c:370::/48,TH,TH-10,Bangkok,
+
+## IETF 123, 19 Jul 2025 - 25 Jul 2025 - Madrid, ES.
+130.129.0.0/16,ES,ES-M,Madrid,
+2001:df8::/32,ES,ES-M,Madrid,
+31.133.128.0/18,ES,ES-M,Madrid,
+31.130.224.0/20,ES,ES-M,Madrid,
+2001:67c:1230::/46,ES,ES-M,Madrid,
+2001:67c:370::/48,ES,ES-M,Madrid,
